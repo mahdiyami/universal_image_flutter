@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart' as svg;
+import 'package:universal_image_flutter/universal_image_loader.dart';
 import 'package:utils_extension_dart/ext/ext.dart';
 
-import 'universal_image_loader_option.dart';
 
 class CachedSvg extends StatelessWidget {
   final String path;

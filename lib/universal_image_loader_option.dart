@@ -1,6 +1,6 @@
 
+part of 'universal_image_loader.dart';
 
-import 'package:flutter/material.dart';
 
 final class UniversalImageLoaderOption {
   final double? height;

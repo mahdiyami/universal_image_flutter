@@ -2,8 +2,8 @@
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:universal_image_flutter/universal_image_loader.dart';
 
-import 'universal_image_loader_option.dart';
 
 class BaseCachedNetworkImage extends StatelessWidget {
   final String imageUrl;

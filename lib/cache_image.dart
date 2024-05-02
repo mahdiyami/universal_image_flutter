@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:universal_image_flutter/base_cached_image.dart';
+import 'package:universal_image_flutter/universal_image_loader.dart';
 import 'package:utils_extension_dart/ext/ext.dart';
 
-import 'universal_image_loader_option.dart';
 
 class CachedImage extends StatelessWidget {
   final String path;

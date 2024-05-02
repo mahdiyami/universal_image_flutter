@@ -4,13 +4,13 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:universal_image_flutter/cache_image.dart';
 import 'package:universal_image_flutter/cache_svg.dart';
-import 'package:universal_image_flutter/universal_image_loader_option.dart';
 import 'package:universal_image_flutter/mime_type.dart';
 import 'package:universal_image_flutter/xfile_ext.dart';
 import 'package:universal_image_flutter/xfile_to_widget.dart';
 
+part 'universal_image_loader_option.dart';
 
-class UniversalImageLoader extends StatelessWidget {
+final class UniversalImageLoader extends StatelessWidget {
   final String? path;
   final XFile? xFile;
   final UniversalImageLoaderOption? option;

@@ -1,7 +1,4 @@
 library universal_image_flutter;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'universal_image_loader.dart';
+

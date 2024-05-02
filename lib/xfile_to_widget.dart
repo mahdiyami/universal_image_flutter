@@ -3,7 +3,7 @@ import 'package:cross_file/cross_file.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:universal_image_flutter/base_cached_image.dart';
-import 'package:universal_image_flutter/universal_image_loader_option.dart';
+import 'package:universal_image_flutter/universal_image_loader.dart';
 import 'package:universal_image_flutter/xfile_ext.dart';
 import 'package:utils_extension_dart/ext/ext.dart';
 
