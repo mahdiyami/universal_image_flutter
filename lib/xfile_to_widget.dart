@@ -9,9 +9,9 @@ import 'package:utils_extension_dart/ext/ext.dart';
 
 class XFileToWidget extends StatelessWidget {
   final XFile xFile;
-  final UniversalImageLoaderOption? option;
+  final UniversalImageLoaderOption option;
 
-  const XFileToWidget(this.xFile, {super.key, this.option});
+  const XFileToWidget(this.xFile, {super.key, this.option = const UniversalImageLoaderOption()});
 
   @override
   Widget build(BuildContext context) {

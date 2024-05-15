@@ -6,27 +6,30 @@ import 'package:utils_extension_dart/ext/ext.dart';
 
 class CachedSvg extends StatelessWidget {
   final String path;
-  final UniversalImageLoaderOption? option;
+  final UniversalImageLoaderOption option;
 
-  const CachedSvg(this.path, {super.key, this.option});
+  const CachedSvg(this.path, {super.key, this.option = const UniversalImageLoaderOption()});
 
   @override
   Widget build(BuildContext context) {
     if (path.isURl) {
       return svg.SvgPicture.network(
         path,
-        height: option?.height,
-        width: option?.width,
-        fit: option?.fit ?? BoxFit.contain,
-        colorFilter: option?.colorFilter,
+        height: option.height,
+        width: option.width,
+        alignment: option.alignment,
+        fit: option.fit ,
+
+        colorFilter: option.colorFilter,
       );
     } else {
       return svg.SvgPicture.asset(
         path,
-        height: option?.height,
-        width: option?.width,
-        fit: option?.fit ?? BoxFit.contain,
-        colorFilter: option?.colorFilter,
+        height: option.height,
+        width: option.width,
+        fit: option.fit ,
+        alignment: option.alignment,
+        colorFilter: option.colorFilter,
       );
     }
   }

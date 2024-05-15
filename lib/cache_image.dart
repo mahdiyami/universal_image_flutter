@@ -6,9 +6,9 @@ import 'package:utils_extension_dart/ext/ext.dart';
 
 class CachedImage extends StatelessWidget {
   final String path;
-  final UniversalImageLoaderOption? option;
+  final UniversalImageLoaderOption option;
 
-  const CachedImage(this.path, {super.key, this.option});
+  const CachedImage(this.path, {super.key, this.option = const UniversalImageLoaderOption()});
 
   @override
   Widget build(BuildContext context) {
@@ -20,11 +20,12 @@ class CachedImage extends StatelessWidget {
     } else {
       return Image.asset(
         path,
-        height: option?.height,
-        color: option?.color,
-        colorBlendMode: option?.blendMode,
-        width: option?.width,
-        fit: option?.fit,
+        height: option.height,
+        color: option.color,
+        colorBlendMode: option.blendMode,
+        width: option.width,
+        alignment: option.alignment,
+        fit: option.fit,
       );
     }
   }

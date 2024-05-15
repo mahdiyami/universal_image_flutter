@@ -13,7 +13,7 @@ part 'universal_image_loader_option.dart';
 final class UniversalImageLoader extends StatelessWidget {
   final String? path;
   final XFile? xFile;
-  final UniversalImageLoaderOption? option;
+  final UniversalImageLoaderOption option;
   final GestureTapCallback? onTap;
 
   const UniversalImageLoader({
@@ -21,7 +21,7 @@ final class UniversalImageLoader extends StatelessWidget {
     this.path,
     this.xFile,
     this.onTap,
-    this.option,
+    this.option = const UniversalImageLoaderOption(),
   });
 
   static ImageProvider imageProvider(String url) {
