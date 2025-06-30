@@ -1,7 +1,9 @@
 # This is a generated file; do not edit or check into version control.
-path_provider=/Users/mahdiyami/.pub-cache/hosted/pub.dev/path_provider-2.1.2/
-path_provider_android=/Users/mahdiyami/.pub-cache/hosted/pub.dev/path_provider_android-2.2.3/
-path_provider_foundation=/Users/mahdiyami/.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.2/
-path_provider_linux=/Users/mahdiyami/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
-path_provider_windows=/Users/mahdiyami/.pub-cache/hosted/pub.dev/path_provider_windows-2.2.1/
-sqflite=/Users/mahdiyami/.pub-cache/hosted/pub.dev/sqflite-2.3.3/
+path_provider=C:\\Users\\mahdi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider-2.1.5\\
+path_provider_android=C:\\Users\\mahdi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider_android-2.2.15\\
+path_provider_foundation=C:\\Users\\mahdi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider_foundation-2.4.1\\
+path_provider_linux=C:\\Users\\mahdi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider_linux-2.2.1\\
+path_provider_windows=C:\\Users\\mahdi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\path_provider_windows-2.3.0\\
+sqflite=C:\\Users\\mahdi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\sqflite-2.4.1\\
+sqflite_android=C:\\Users\\mahdi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\sqflite_android-2.4.0\\
+sqflite_darwin=C:\\Users\\mahdi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\sqflite_darwin-2.4.1+1\\

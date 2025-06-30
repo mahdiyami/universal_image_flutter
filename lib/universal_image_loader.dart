@@ -50,7 +50,7 @@ final class UniversalImageLoader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (path != null || (xFile != null)) {
+    if ((path != null && path!.isNotEmpty) || (xFile != null)) {
       return InkWell(
           onTap: onTap,
           child: xFile != null
