@@ -26,9 +26,6 @@ final class UniversalImageLoader extends StatelessWidget {
   });
 
   static ImageProvider imageProvider(String path) {
-    if(path.isEmpty) {
-      return const AssetImage('assets/images/placeholder.png');
-    }
     if(path.isURl) {
       return CachedNetworkImageProvider(path, headers: const {
       // HttpHeaders.authorizationHeader:
