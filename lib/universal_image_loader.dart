@@ -7,6 +7,7 @@ import 'package:universal_image_flutter/cache_svg.dart';
 import 'package:universal_image_flutter/mime_type.dart';
 import 'package:universal_image_flutter/xfile_ext.dart';
 import 'package:universal_image_flutter/xfile_to_widget.dart';
+import 'package:utils_extension_dart/ext/ext.dart';
 
 part 'universal_image_loader_option.dart';
 
@@ -24,11 +25,14 @@ final class UniversalImageLoader extends StatelessWidget {
     this.option = const UniversalImageLoaderOption(),
   });
 
-  static ImageProvider imageProvider(String url) {
-    return CachedNetworkImageProvider(url, headers: const {
+  static ImageProvider imageProvider(String path) {
+    if(path.isURl) {
+      return CachedNetworkImageProvider(path, headers: const {
       // HttpHeaders.authorizationHeader:
       // "Bearer ${sl<NetworkManager>().getToken()}"
     });
+    }
+    return AssetImage(path);
   }
 
   static ImageProvider imageProviderFromFile(XFile file) {
